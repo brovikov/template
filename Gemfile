@@ -44,6 +44,8 @@ group :development, :test do
   gem "standard", require: false
   gem "rubocop-rails", require: false
   gem "rubocop-rspec", require: false
+
+  gem "overcommit", "~> 0.53.0"
 end
 
 group :development do
