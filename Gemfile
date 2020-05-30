@@ -56,6 +56,7 @@ group :development do
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "brakeman", "~> 4.8", ">= 4.8.2"
+  gem "bundler-audit", "~> 0.6.1"
 end
 
 group :test do

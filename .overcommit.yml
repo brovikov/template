@@ -16,6 +16,10 @@
 # Uncomment the following lines to make the configuration take effect.
 
 PreCommit:
+ BundleAudit:
+   command: ['bundle', 'audit', 'check', '--update']
+   enabled: true
+   on_warn: fail
  RuboCop:
    enabled: true
    on_warn: fail # Treat all warnings as failures
