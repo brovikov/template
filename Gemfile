@@ -35,6 +35,11 @@ group :development, :test do
   gem 'factory_bot', '~> 5.2'
   gem 'database_cleaner-active_record', '~> 1.8'
   gem 'database_cleaner-redis', '~> 1.8'
+
+  gem "pry"
+  gem "pry-stack_explorer"
+  gem "pry-remote"
+  gem "pry-nav"
 end
 
 group :development do
